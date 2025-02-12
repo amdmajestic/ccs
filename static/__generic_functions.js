@@ -10,8 +10,8 @@ const vr_script = (assetRelativePath) => {
     return `/src/assets/scripts/${assetRelativePath}`
 }
 
-// export default {
-//     vr_media, 
-//     vr_style, 
-//     vr_script
-// };
+export default {
+    vr_media, 
+    vr_style, 
+    vr_script
+};

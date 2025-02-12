@@ -53,8 +53,8 @@ toTitleCase: Object.defineProperty(String.prototype, 'toTitleCase', {
 
 
 
-// export default {
-//     toSentenceCase: String.prototype.toSentenceCase,
-//     stringToBool: String.prototype.stringToBool,
-//     toTitleCase:  String.prototype.toTitleCase,
-// };
+export default {
+    toSentenceCase: String.prototype.toSentenceCase,
+    stringToBool: String.prototype.stringToBool,
+    toTitleCase:  String.prototype.toTitleCase,
+};
